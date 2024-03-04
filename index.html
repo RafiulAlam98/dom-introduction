@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>This is header section</h1>
+    </header>
+
+    <main id="main-container">
+      <!-- <h3 class="main-header">This is main section</h3>
+
+      <article>
+        <h1 id="blog1">Blog 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In, mollitia?
+          Neque, amet itaque optio nemo omnis vero pariatur praesentium
+          similique aut! Voluptatibus quibusdam saepe distinctio facilis magnam,
+          quidem placeat eligendi laborum labore cumque obcaecati quod maiores
+          nobis ipsum sequi! Doloremque.
+        </p>
+      </article>
+
+      <article>
+        <h1>Blog 2</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In, mollitia?
+          Neque, amet itaque optio nemo omnis vero pariatur praesentium
+          similique aut! Voluptatibus quibusdam saepe distinctio facilis magnam,
+          quidem placeat eligendi laborum labore cumque obcaecati quod maiores
+          nobis ipsum sequi! Doloremque.
+        </p>
+      </article> -->
+
+      <p id="btn-text"></p>
+      <!-- number-1 -->
+      <button onclick="console.log('clicked')">Click Me</button>
+
+       <!-- number-2 -->
+      <button
+        onclick="document.getElementById('btn-text').innerText='Button Clicked'"
+      >
+        Click Me for Text
+      </button>
+        <!-- number-3 -->
+
+      <button onclick="handleBgColor()">Click Me:Red</button>
+
+      <!-- number-4 -->
+      <button id="make-color-green">Click Me:Green</button>
+    </main>
+
+
+    <script>
+        function handleBgColor(){
+            document.body.style.backgroundColor = 'red'
+        }
+
+
+    </script>
+
+    <script>
+      // const blog1 = document.getElementById('blog1')
+      // console.log(blog1)
+      // blog1.style.fontSize = '64px'
+      // blog1.style.color = 'green'
+
+      // const mainHeaders = document.getElementsByClassName('main-header')
+
+      // for(const header of mainHeaders){
+      //     console.log(header)
+      //     header.style.color = 'blue'
+      //     header.innerText = 'This was changed by JavaScript'
+      // }
+
+      // const article = document.createElement('article')
+      // const heading = document.createElement('h1')
+      // const paragraph = document.createElement('p')
+
+      // heading.innerText = 'Hello World'
+
+      // const mainContainer = document.getElementById('main-container')
+
+      // mainContainer.appendChild(heading)
+
+
+    </script>
+
+    
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
+
+<!--
+1. First Step
+    Catch the element
+    by Tag Name
+    by Id
+
+2. Change the Element
+-->
